@@ -1,0 +1,58 @@
+.header 
+  background-color: #fff
+  &-top
+    display: flex
+    justify-content: space-between
+    align-items: center
+    padding: 40px 0 40px 0
+  
+  .header__search
+    margin-right: auto  
+    margin-left: 108px
+
+
+.search
+  display: flex
+  overflow: hidden
+  width: 350px
+  border-radius: 6px
+  height: 40px
+  position: relative
+  &__input
+    width: 350px
+    height: 100%
+    font-size: 12px
+    line-height: 15px
+    color: $text-color
+    padding-left: 23px
+    border: none
+    background: #F5FAFE
+    padding-right: 80px
+  &__button
+    height: 100%
+    width: 65px
+    background-color: $primary
+    position: absolute
+    border: none
+    top: 0
+    right: 0
+
+.user
+  display: flex
+  align-items: center
+  text-decoration: none
+  &__name 
+    font-weight: 400
+    font-size: 14px
+    line-height: 18px
+    color: $text-color
+  &__avatar
+    margin-right: 18px
+    border-radius: 50%   //Делает аватарку круглой
+    object-fit: cover    //Не даёт изображение растянуться
+    width: 40px
+    height: 40px
+    
+    
+
+
