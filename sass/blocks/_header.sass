@@ -1,4 +1,4 @@
-.header 
+.navbar 
   background-color: #fff
   &-top
     display: flex
@@ -6,10 +6,30 @@
     align-items: center
     padding: 40px 0 40px 0
   
-  .header__search
+  &__search
     margin-right: auto  
     margin-left: 108px
+  &__bottom
+    background-color: $dark
+    padding: 31px 0
 
+  &-menu
+    padding: 0
+    margin: 0
+    list-style-type: none
+    display: flex
+    justify-content: space-between
+    color: $light 
+    align-items: center
+    &__link
+      color: $light
+      text-decoration: none
+      text-transform: uppercase
+      font-size: 14px
+      line-height: 18px
+
+.logo
+  width: 177px
 
 .search
   display: flex
@@ -31,7 +51,7 @@
   &__button
     height: 100%
     width: 65px
-    background-color: $primary
+    background-color: #EC1F46
     position: absolute
     border: none
     top: 0
